@@ -1,3 +1,7 @@
+# -------------------------------
+# Exercise 1: Palindrome Checker
+# -------------------------------
+
 def palindrome(word: str) -> bool:
     # Convert to lowercase
     cleaned = word.lower()
@@ -12,7 +16,9 @@ print(palindrome("Sit on a potato pan, Otis."))
 print(palindrome("Hello"))  
 
 
-
+# -------------------------------
+# Exercise 2: Balanced Parentheses
+# -------------------------------
 def parentheses(sequence: str) -> bool:
     balance = 0
     for char in sequence:
